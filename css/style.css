@@ -1,0 +1,105 @@
+@font-face {
+    font-family: Montserrat;
+    src: url(../Fonts/Montserrat/Montserrat-VariableFont_wght.ttf);
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: Mulish;
+    src: url(../Fonts/Mulish/Mulish-VariableFont_wght.ttf);
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: Mullishbold;
+    src: url(../Fonts/Mulish_bold/Mulish-VariableFont_wght.ttf);
+    font-weight: 700;
+}
+
+.header {
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.navigation {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.registration {
+    display: flex;
+    gap: 50px;
+    align-items: center;
+}
+
+.link {
+    display: flex;
+    text-decoration: none;
+    color: #001A49;
+    font-family: Mullishbold;
+}
+
+.start {
+    border-radius: 33px;
+    color: #ffffff;
+    background: linear-gradient(44deg, #CD10FF 15.75%, #9F06FF 84.63%);
+    border: none;
+    min-width: 150px;
+    padding: 15px 20px;
+    cursor: pointer;
+    font-family: Mullishbold;
+}
+
+.start:active {
+    box-shadow: inset 0 0 10px #0000004d;
+}
+
+.nuk {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    align-items: center;
+}
+
+@media screen and (max-width: 900px) {
+    .navigation {
+        gap: 20px;
+    }
+
+    .header {
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .nuk {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .header {
+        gap: 20px;
+    }
+
+    .registration {
+        gap: 20px;
+    }
+}
+
+.big-text {
+    font-family: Montserrat;
+    max-width: 300px;
+    margin-left: 180px;
+    margin-top: 165px;
+}
+
+.block-info {
+    border-radius: 0px 20px 20px 0px;
+    opacity: 0.05;
+    background: linear-gradient(44deg, #CD10FF 15.75%, #9F06FF 84.63%);
+}
