@@ -1,0 +1,24 @@
+@media screen and (max-width: 900px) {
+    .navigation {
+        gap: 20px;
+    }
+
+    .header {
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .nuk {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .header {
+        gap: 20px;
+    }
+
+    .registration {
+        gap: 20px;
+    }
+}

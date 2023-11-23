@@ -66,40 +66,115 @@
     align-items: center;
 }
 
-@media screen and (max-width: 900px) {
-    .navigation {
-        gap: 20px;
-    }
-
-    .header {
-        flex-direction: column;
-    }
-}
-
-@media screen and (max-width: 640px) {
-    .nuk {
-        flex-direction: column;
-        gap: 20px;
-    }
-
-    .header {
-        gap: 20px;
-    }
-
-    .registration {
-        gap: 20px;
-    }
-}
-
 .big-text {
     font-family: Montserrat;
-    max-width: 300px;
-    margin-left: 180px;
-    margin-top: 165px;
+    max-width: 540px;
+    font-size: 60px;
+}
+
+.block {
+    position: relative;
+    padding: 134px 0;
+    margin-top: 30px;
 }
 
 .block-info {
     border-radius: 0px 20px 20px 0px;
-    opacity: 0.05;
+    background: linear-gradient(44deg, rgba(203, 15, 255, 0.05) 15.75%, rgba(159, 5, 255, 0.05) 84.63%);
+    width: 75%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+}
+
+.block-info-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    position: relative;
+    z-index: 2;
+}
+
+.text {
+    font-family: Mulish;
+    max-width: 420px;
+}
+
+.start-2 {
+    border-radius: 33px;
+    color: #ffffff;
     background: linear-gradient(44deg, #CD10FF 15.75%, #9F06FF 84.63%);
+    border: none;
+    min-width: 150px;
+    padding: 15px 20px;
+    cursor: pointer;
+    font-family: Mullishbold;
+    margin-top: 40px;
+}
+
+.start-2:active {
+    box-shadow: inset 0 0 10px #0000004d;
+}
+
+.students {
+    margin-top: 80px;
+    display: flex;
+    align-items: center;
+}
+
+.img-text {
+    font-family: Mulish;
+}
+
+.img-text span {
+    color: #9F07FF;
+}
+
+.ava1 {
+    translate: 0px;
+}
+
+.ava2 {
+    translate: -20px;
+}
+
+.ava3 {
+    translate: -40px;
+}
+
+.video-wrap {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translateX(50%) translateY(-50%);
+}
+
+.play {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    border: none;
+    background: none;
+}
+
+.video-wrap video {
+    width: 100%;
+    border-radius: 20px;
+}
+
+.play {
+    background-color: #ffffff;
+    border-radius: 60px;
+    height: 50px;
+    width: 50px;
+    display: flex;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.play svg {
+    position: relative;
+    left: 1px;
 }
