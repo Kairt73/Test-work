@@ -22,3 +22,21 @@
         gap: 20px;
     }
 }
+
+@media screen and (max-width: 1000px) {
+    .block-info {
+        position: static;
+        width: 100%;
+        margin-top: 100px;
+    }
+
+    .video-wrap {
+        position: relative;
+        transform: none;
+        width: 100%;
+    }
+
+    #video {
+        width: 100%;
+    }
+}
