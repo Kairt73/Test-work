@@ -40,3 +40,29 @@
         width: 100%;
     }
 }
+
+@media screen and (max-width: 500px) {
+    .numbers {
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    .numbe {
+        flex-basis: 30vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+        border-bottom: 1px solid #E7EAEB;
+        border-right: none;
+    }
+
+    .round {
+        display: none;
+    }
+
+    .round-mini {
+        display: none;
+    }
+}

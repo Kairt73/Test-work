@@ -16,6 +16,10 @@
     font-weight: 700;
 }
 
+body {
+    margin: 0;
+}
+
 .header {
     display: flex;
     gap: 50px;
@@ -189,4 +193,101 @@
     left: 1px;
 }
 
-.df-block {}
+.round {
+    background-image: linear-gradient(#CD10FF 15.75%, #9F06FF 84.63%);
+    width: 288px;
+    height: 288px;
+    border-radius: 160px;
+    position: absolute;
+    top: 20px;
+    left: -200px;
+    z-index: -1;
+
+}
+
+.numbers {
+    position: relative;
+    display: flex;
+    max-width: 1120px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 21px;
+    border: 1px solid #E7EAEB;
+    background: #FFF;
+    padding: 30px;
+}
+
+.numbe {
+    flex-grow: 1;
+    text-align: center;
+    border-right: 1px solid #E7EAEB;
+}
+
+.numbe:last-child {
+    border: none;
+}
+
+.numbe h4 {
+    font-family: Montserrat;
+    font-size: 40px;
+    margin: 0;
+    line-height: 1;
+}
+
+.numbe p {
+    font-family: Mulish;
+    font-size: 16px;
+    margin: 0;
+}
+
+.round-mini {
+    position: absolute;
+    width: 86px;
+    height: 86px;
+    border-radius: 160px;
+    top: 222px;
+    left: 5px;
+    background: linear-gradient(#FFD7A9 9.11%, #FFAE70 71.64%);
+}
+
+.center-object {
+    font-family: Montserrat;
+}
+
+.tables {
+    position: relative;
+    display: flex;
+    padding-top: 150px;
+    text-align: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.text-center p {
+    font-family: Mulish;
+    max-width: 420px;
+}
+
+.brown {
+    width: 382px;
+    height: 382px;
+    background: linear-gradient(36deg, #FFD7A9 9.11%, #FFAE70 71.64%);
+    border-radius: 200px;
+    position: absolute;
+    right: -230px;
+}
+
+.users {
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    flex-direction: column;
+}
+
+.users h1 {
+    font-family: Montserrat;
+}
+
+.users p {
+    font-family: Mulish;
+}
