@@ -45,7 +45,6 @@
     .numbers {
         flex-direction: column;
         align-items: center;
-
     }
 
     .numbe {
@@ -64,5 +63,60 @@
 
     .round-mini {
         display: none;
+    }
+
+    .left-text h1 {
+        font-size: 32px;
+    }
+
+    .left-text p {
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 1400px) {
+    .brown {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .learn-item {
+        flex-direction: column;
+    }
+
+    .learn-info {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+
+        img {
+            width: 30%;
+        }
+    }
+
+    .learn-statistic {
+        margin-top: 30px;
+        padding: 20px;
+    }
+
+    .orange {
+        display: none;
+    }
+
+    .oval {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .profile {
+        flex-direction: column;
+    }
+
+    .blur {
+        max-width: 250px;
+        height: 250px;
+        margin-top: 20px;
     }
 }

@@ -25,6 +25,10 @@ body {
     gap: 50px;
     align-items: center;
     justify-content: space-between;
+
+}
+
+.container {
     max-width: 1200px;
     margin: 0 auto;
 }
@@ -256,11 +260,16 @@ body {
 
 .tables {
     position: relative;
-    display: flex;
     padding-top: 150px;
-    text-align: center;
-    justify-content: center;
     overflow: hidden;
+}
+
+.text-center {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
 }
 
 .text-center p {
@@ -277,17 +286,124 @@ body {
     right: -230px;
 }
 
-.users {
+.learn-list {
     display: flex;
-    align-items: start;
-    justify-content: start;
     flex-direction: column;
+    gap: 20px;
+    margin-top: 60px;
 }
 
-.users h1 {
+.learn-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient(44deg, #cb10ff13 15.75%, #a006ff13 84.63%);
+    border-radius: 21px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-right: 45px;
+    padding-left: 45px;
+
+}
+
+.learn-content h3 {
     font-family: Montserrat;
+    margin-top: 0;
+    font-size: 24px;
+    margin-bottom: 20px;
 }
 
-.users p {
+.learn-content p {
     font-family: Mulish;
+    margin: 0;
+}
+
+.learn-video {
+    font-family: Mulish;
+}
+
+.learn-hours {
+    font-family: Mulish;
+}
+
+.learn-info {
+    display: flex;
+    gap: 14px;
+    max-width: 500px;
+}
+
+.learn-statistic {
+    display: flex;
+    padding: 25px;
+    border-radius: 160px;
+    background: linear-gradient(44deg, #CD10FF 15.75%, #9F06FF 84.63%);
+}
+
+.learn-hours {
+    color: white;
+}
+
+.learn-video {
+    color: white;
+    border-right: 1px solid #8639B5;
+    border-right-width: 1px;
+    flex-grow: 1;
+}
+
+.learn-stat-item {
+    padding-left: 25px;
+}
+
+.learn-stat-item:first-child {
+    padding-left: 0;
+    padding-right: 20px;
+}
+
+.left-text h1 {
+    font-family: Montserrat;
+    color: #001A49;
+    max-width: 550px;
+    font-size: 46px;
+}
+
+.left-text p {
+    font-family: Mulish;
+    max-width: 510px;
+    font-size: 20px;
+
+}
+
+.profile {
+    padding-top: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.orange {
+    background: linear-gradient(36deg, #FFD7A9 9.11%, #FFAE70 71.64%);
+    width: 88px;
+    height: 88px;
+    border-radius: 90px;
+    position: absolute;
+}
+
+.blur {
+    display: flex;
+    background: linear-gradient(44deg, #CD10FF 15.75%, #9F06FF 84.63%);
+    width: 354px;
+    height: 354px;
+    border-radius: 180px;
+    position: relative;
+    overflow: hidden;
+}
+
+.oval {
+    background: linear-gradient(36deg, #FFD7A9 9.11%, #FFAE70 71.64%);
+    width: 132px;
+    height: 132px;
+    border-radius: 180px;
+    opacity: 0.3;
+    position: absolute;
 }
