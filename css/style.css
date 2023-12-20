@@ -378,6 +378,12 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    gap: 25px;
+
+}
+
+.man-profile {
+    position: relative;
 }
 
 
@@ -391,12 +397,19 @@ body {
 
 .blur {
     display: flex;
+    align-items: end;
+    justify-content: center;
     background: linear-gradient(44deg, #CD10FF 15.75%, #9F06FF 84.63%);
     width: 354px;
     height: 354px;
     border-radius: 180px;
     position: relative;
     overflow: hidden;
+}
+
+.blur img {
+    object-fit: cover;
+    width: 100%;
 }
 
 .oval {
@@ -406,4 +419,28 @@ body {
     border-radius: 180px;
     opacity: 0.3;
     position: absolute;
+    right: 20px;
+    top: 250px;
+    right: -50px;
+    z-index: -1;
+}
+
+.reviews {
+    background: linear-gradient(44deg, #CD10FF 15.75%, #CD10FF 15.76%, #9F06FF 84.63%);
+}
+
+.studsay {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.studsay h1 {
+    font-family: Montserrat;
+    color: #ffffff;
+}
+
+.studsay p {
+    font-family: Mulish;
+    color: #ffffff;
 }
