@@ -11,3 +11,13 @@ play.addEventListener("click", function () {
     video.classList.remove("isPlayning");
   }
 });
+
+const accordionButtons = document.querySelectorAll(".accordion-toggle");
+
+accordionButtons.forEach((btn) => {
+  btn.addEventListener("click", function () {
+    const info = this.closest(".accordion").querySelector(".accordion-info");
+    info.classList.toggle("is-open");
+    this.classList.toggle("is-open");
+  });
+});

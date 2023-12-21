@@ -506,6 +506,12 @@ body {
 
 .accordion {
     margin-top: 30px;
+    max-width: 850px;
+    margin: auto;
+    border: 1px solid #cb10ff2b;
+    border-radius: 21px;
+    padding: 10px 30px;
+    margin-bottom: 20px;
 }
 
 .accordion-header {
@@ -514,10 +520,6 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    border: 1px solid #cb10ff2b;
-    border-radius: 21px;
-    gap: 200px;
-    padding: 10px 30px;
 }
 
 .accordion-header h5 {
@@ -530,4 +532,22 @@ body {
     width: 48px;
     height: 48px;
     border-radius: 160px;
+    transition: .4s;
+    cursor: pointer;
+}
+
+.accordion-toggle.is-open {
+    transform: rotate(180deg);
+}
+
+.accordion-info {
+    font-family: Mulish;
+    max-width: 90%;
+    max-height: 0;
+    overflow: hidden;
+    transition: .4s;
+}
+
+.accordion-info.is-open {
+    max-height: 500px;
 }
