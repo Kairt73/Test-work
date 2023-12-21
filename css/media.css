@@ -1,10 +1,81 @@
+@media screen and (max-width: 1400px) {
+    .brown {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .block-info {
+        position: static;
+        width: 100%;
+        margin-top: 100px;
+    }
+
+    .video-wrap {
+        position: relative;
+        transform: none;
+        width: 100%;
+    }
+
+    #video {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .wrapper {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
 @media screen and (max-width: 900px) {
+    .learn-item {
+        flex-direction: column;
+    }
+
+    .learn-info {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .blur img {
+        width: 200px;
+        height: 200px;
+    }
+
+    .learn-statistic {
+        margin-top: 30px;
+        padding: 20px;
+    }
+
+    .orange {
+        display: none;
+    }
+
+    .oval {
+        display: none;
+    }
+
     .navigation {
         gap: 20px;
     }
 
     .header {
         flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .blur img {
+        width: 200px;
+        height: 200px;
+    }
+
+    .blur {
+        width: 250px;
+        height: 250px;
     }
 }
 
@@ -23,21 +94,14 @@
     }
 }
 
-@media screen and (max-width: 1000px) {
-    .block-info {
-        position: static;
-        width: 100%;
-        margin-top: 100px;
+@media screen and (max-width: 600px) {
+    .profile {
+        flex-direction: column-reverse;
     }
 
-    .video-wrap {
-        position: relative;
-        transform: none;
-        width: 100%;
-    }
-
-    #video {
-        width: 100%;
+    .blur {
+        max-width: 250px;
+        height: 250px;
     }
 }
 
@@ -71,51 +135,5 @@
 
     .left-text p {
         font-size: 16px;
-    }
-}
-
-@media screen and (max-width: 1400px) {
-    .brown {
-        display: none;
-    }
-}
-
-@media screen and (max-width: 900px) {
-    .learn-item {
-        flex-direction: column;
-    }
-
-    .learn-info {
-        flex-direction: column;
-        align-items: center;
-        text-align: center;
-
-        img {
-            width: 30%;
-        }
-    }
-
-    .learn-statistic {
-        margin-top: 30px;
-        padding: 20px;
-    }
-
-    .orange {
-        display: none;
-    }
-
-    .oval {
-        display: none;
-    }
-}
-
-@media screen and (max-width: 600px) {
-    .profile {
-        flex-direction: column-reverse;
-    }
-
-    .blur {
-        max-width: 250px;
-        height: 250px;
     }
 }
