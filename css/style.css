@@ -551,3 +551,74 @@ body {
 .accordion-info.is-open {
     max-height: 500px;
 }
+
+.buy-course {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin: 120px auto auto auto;
+    position: relative;
+}
+
+.course-day {
+    display: inline-flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    max-width: 460px;
+    height: 30px;
+    border-radius: 60px;
+    background: linear-gradient(90deg, #ffd7a975 0%, #ffae703a 100%);
+}
+
+.course-day-text {
+    font-family: Montserrat;
+    background: linear-gradient(44deg, #CD10FF 15.75%, #9F06FF 84.63%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    padding: 20px;
+}
+
+.ui-ux {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.ui-ux h1 {
+    max-width: 650px;
+    margin-top: 40px;
+    font-family: Montserrat;
+    text-align: center;
+    color: #001A49;
+    font-size: 46px;
+}
+
+.ui-ux button {
+    margin-top: 20px;
+}
+
+.round-2 {
+    background-image: linear-gradient(#CD10FF 15.75%, #9F06FF 84.63%);
+    width: 288px;
+    height: 288px;
+    border-radius: 160px;
+    position: absolute;
+    top: 20px;
+    right: -150px;
+    z-index: -1;
+}
+
+.orange-2 {
+    background: linear-gradient(36deg, #FFD7A9 9.11%, #FFAE70 71.64%);
+    width: 88px;
+    height: 88px;
+    border-radius: 90px;
+    position: absolute;
+    right: 50px;
+    top: 20px;
+}

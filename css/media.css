@@ -27,6 +27,14 @@
         flex-direction: column;
         align-items: center;
     }
+
+    .orange-2 {
+        display: none;
+    }
+
+    .round-2 {
+        display: none;
+    }
 }
 
 @media screen and (max-width: 900px) {
